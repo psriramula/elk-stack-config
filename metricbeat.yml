@@ -50,9 +50,7 @@ metricbeat.modules:
   metricsets: ["status"]
   enabled: true
   period: 1s
-  hosts: ["http://127.0.0.1"]  
-
-
+  hosts: ["localhost"]
 
 #================================ General =====================================
 
